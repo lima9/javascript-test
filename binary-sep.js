@@ -2,7 +2,6 @@
 function solution(num) {
     var binary = [];
     while (num !== 0) {
-        document.writeln(num);
         if (num % 2 === 0) {
             binary.push(0);
         } else if (num % 2 == 1) {
@@ -54,6 +53,6 @@ function maxsep(rever) {
 
 document.writeln("Number Entered:\n " + 37389 + "\n");
 var binary = solution(37389);
-document.writeln("This is the binary representation of your number: " + rever);
-//var sep = maxsep(rever);
-//document.writeln("The maximum separation is: " + sep);
+document.writeln("This is the binary representation of your number: " + binary);
+var sep = maxsep(binary);
+document.writeln("The maximum separation is: " + sep);
