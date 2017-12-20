@@ -1,1 +1,1 @@
-# javascript-test
+# Codility Lessons in JavaScript
